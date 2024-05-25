@@ -1,0 +1,251 @@
+/* Write your CSS code here */
+
+*{
+    font-family: 'TwitterChrip', Arial, Helvetica, sans-serif;
+    background-color: rgb(251, 212, 227);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+    max-height: 800px;
+}
+/*-------------------------------------------------------------------------------*/
+/*Images:*/
+
+img{
+    border-radius: 50%;
+}
+
+#preview-img{
+    width: 75px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 0;
+}
+
+#longer-img{
+    width: 70px;
+}
+
+#small-img{
+    width: 65px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* Text */
+
+h1, h2, h3, p, li{
+    background-color: white;
+    font-family: 'TwitterChrip';
+}
+
+h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2{
+    font-weight: lighter;
+    color: rgb(115, 115, 115);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+p{
+    font-family: 'TwitterChirp';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#list{
+    font-family: 'TwitterChrip';
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    background-color: white;
+   justify-content: space-evenly;
+   margin-top: 5px;
+   color: rgb(53, 52, 52);
+}
+#no-li{
+    list-style: none;
+}
+ul li{
+    color: rgb(112, 112, 112);
+    list-style: disc;
+    text-decoration: black;
+}
+#LA{
+    font-size: 12px;
+    font-weight: 300;
+    color: gray;
+}
+svg{
+    display: inline-flex;
+    width: 15px;
+    background-color: white;
+    
+}
+/*-------------------------------------------------------------------------------*/
+/*Containers*/
+
+.container-1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    padding: 30px 30px;
+    -webkit-box-shadow: 0px 3px 39px 3px rgba(139, 21, 72, 0.501);
+    width: 230px;
+    height: 240px;
+}
+
+.container-2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-items: center;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    padding: 25px 30px;
+    width: 350px;
+    height: 240px;
+    -webkit-box-shadow: 0px 3px 39px 3px rgba(139, 21, 72, 0.501);
+    }
+
+.container-3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    top: 0;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    padding: 30px 20px;
+    width: 400px;
+    height: 250px;
+    -webkit-box-shadow: 0px 3px 39px 3px rgba(139, 21, 72, 0.501);
+    }
+
+.header2 {
+    background-color: white;
+    display: flex;
+    max-width: 300px;
+    justify-content: space-between;
+    max-height: 240px;
+}
+
+.header3{
+    background-color: white;
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+    max-height: 250px;
+}
+
+#h-longer{
+    margin-top: 10px;
+}
+#h2-longer{
+    margin-bottom: 10px;
+}
+#h1-smaller{
+    margin-top: 8px;
+}
+#h2-smaller{
+    margin-bottom: 8px;
+}
+/*----------------------------------------------------------------------------*/
+/*Buttons*/
+ .btn1:hover {
+     cursor: pointer;
+     background-color: rgba(255, 217, 234, 0.205);
+ }
+
+.btn3:hover{
+opacity: 0.8;
+}
+
+#preview-btn{
+    border: 1px solid rgba(166, 154, 154, 0.163);
+    box-shadow: 0px 0px 10px -4px pink;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'TwitterChirp';
+        font-weight: 600;
+            width: 80px;
+            height: 36px;
+            padding: 3px;
+            align-self: center;
+            align-content: center;
+            justify-self: center;
+            margin-top: 14px;
+            color: rgb(99, 97, 97);
+}
+
+ #longer-btn{
+    border: 1px solid rgba(166, 154, 154, 0.163);
+    box-shadow: 0px 0px 10px -4px pink;
+    border-radius: 50px;
+    width:82px;
+    height: 33px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    align-self: center;
+    font-size: 15px;
+    font-family: 'TwitterChirp';
+    font-weight: 600;
+    color: rgb(99, 97, 97);
+}
+
+ #small-btn{
+    border: 1px solid white;
+    position: relative;
+    background-color: black;
+    box-shadow: 0px 0px 10px -4px pink;
+    color: white;
+    border-radius: 9999px;
+    width: 82px;
+    height: 36px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'TwitterChirp';
+    font-weight: 600;
+ }
+/*----------------------------------------------------------------------------*/
+
+.section-container1{
+    display: flex;
+    align-content: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 110px;
+    }
+
+.section-container2{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+    .section-container3{
+        display: flex;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+   
